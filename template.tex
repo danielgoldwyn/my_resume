@@ -1,0 +1,146 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% Original author
+% Harsh (harsh.gadgil@gmail.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+% Command for printing skill overview bubbles
+\newcommand\skills{ 
+~
+	\smartdiagram[bubble diagram]{
+        \textbf{Operation}\\\textbf{Management},
+        \textbf{Full Stack}\\\textbf{Dev},
+        \textbf{~~~~~~~~OOP~~~~~~~~~},
+        \textbf{~~~~~~Business~~~~~~}\\\textbf{~~Analysis~~},
+        \textbf{~~~~~Graphic~~~~~}\\\textbf{~~Design~~}
+    }
+}
+
+% Programming skill bars
+\programming{{css $\textbullet$ sass  $\textbullet$ JavaScript / 3}, {Python $\textbullet$ C++ $\textbullet$ \large \LaTeX / 3.5}, { React $\textbullet$ Django $\textbullet$ Pandas / 5}}
+
+% Projects text
+\education{
+\textbf{BIT., Software Engineering} (GPA: 3.8) \\
+SEGI University \\
+2012 - 2015 | Kuala Lumpur, Malaysia
+
+\textbf{Diploma, Information Technology} (GPA: 3.7) \\
+TAFE College \\
+2009 - 2011 | Seremban, Malaysia
+}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\cvname{Daniel Goldwyn} % Your name
+\cvjobtitle{} % Job
+% title/career
+
+\cvlinkedin{} % linkedin page
+\cvgithub{danielgoldwyn}
+\cvnumberphone{+6 012 3456 7890} % Phone number redacted on Github
+\cvsite{} % Personal website
+\cvmail{dgoldwyn@email.com} % Email address redacted on Github
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+\twentyitem
+    	{Mar 2018 -}
+		{Dec 2020}
+        {Operations Manager}
+        {\href{}{Inflight Sales Group (Hong Kong)}}
+        {}
+        {\begin{itemize}
+        \item Focused on managing day to day operations of the company's Manila hub
+        \item Point person between headquarters in Hong Kong, the client in Manila, 4 seperate software vendors in Europe and multiple end users
+        \item Designated to be final tester and approval before every enhancement and change request to the system is pushed to the end user
+        \item Analysed data and recomended most of the business decisions for headquarters to further enhance and improve the business
+        \item Created an offline React application that was used for training purposes reducing the time required to prepare for a training session by half
+        \item Conducted interviews for majority of the operations team based in Manila
+        \end{itemize}}
+        \\
+	\twentyitem
+    	{Apr 2017 -}
+		{Feb 2018}
+        {Assistant Manager - Operations}
+        {\href{}{Inflight Sales Group (Hong Kong)}}
+        {}
+        {
+        {\begin{itemize}
+        \item Started engaging more with clients and making minor business decisions on behalf of the company while still performing the job scopes of an IT Executive
+        \item Prepared sales analysis reports with recomendations to be sent to business directors for further action 
+        \item In a team of 4 prepared and presented the company's pitch after being shortlisted for a tender by a legacy carrier airline
+        \item Managed, tested and developed the protocols for the day to day operation for a newly secured client based in Manila   
+    \end{itemize}}
+        }
+    \\
+    \twentyitem
+   		{Apr 2015 -}
+		{Mar 2017}
+        {IT Executive}
+        {\href{}{Inflight Sales Group (Malaysia)}}
+        {}
+        {
+        {\begin{itemize}
+        \item Point person for cabin crews and airline management regarding the newly launched POS system onboard international flights for a legacy carrier airline based in Kuala Lumpur
+        \item Maintained hardware used by the POS including payment terminals and ensured information in the system was up to date according to the airlines plans.
+    \end{itemize}}
+        }
+     \\   
+    \twentyitem
+   		{Oct 2014 -}
+		{Mar 2015}
+        {Part Time Trainer}
+        {\href{}{Inflight Sales Group (Malaysia)}}
+        {}
+        {
+        {\begin{itemize}
+        \item Conducted training for cabin crews on a new offline onboard POS system that would be rolled out on all international flights for a legacy carrier airline based in Kuala Lumpur
+        \item Gathered feedback from cabin crew and airline management teams to be passed on to system developers for further enhancement
+    \end{itemize}}
+        }
+     \\
+     \twentyitem
+   		{Jan 2014 -}
+		{Sep 2014}
+        {Concert Promoter Assistant}
+        {\href{https://www.jsconcert.com/}{JS Concert Productions}}
+        {}
+        {
+        \begin{itemize}
+        \item Prepare graphics to be used for the promotion of the concert on social media and print media.
+        \item Manage the requirements of all stakeholders in the backstage area of the concert while ensuring local rules, guidelines and laws are maintained.
+    \end{itemize}
+    	}
+        
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+\end{document} 

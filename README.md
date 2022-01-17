@@ -4,7 +4,7 @@ Template designed by:
 
 1. [Harsh Gadgil](https://github.com/opensorceror)
 
-![CV Screenshot](screen.png)
+![CV Screenshot](screenshot.png)
 
 ## Installing pre-requisites (Windows)
 

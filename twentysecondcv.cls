@@ -88,6 +88,7 @@
 \definecolor{materialred}{HTML}{FF4436}
 \definecolor{materialorange}{HTML}{FF5722}
 \definecolor{linkedin}{HTML}{0085AE}
+\definecolor{codewars}{HTML}{0085AE}
 \definecolor{test}{HTML}{0077be}
 \definecolor{yt}{HTML}{c71610}
 
@@ -138,6 +139,7 @@
 % Define custom commands for CV info
 \newcommand{\cvdate}[1]{\renewcommand{\cvdate}{#1}}
 \newcommand{\cvlinkedin}[1]{\renewcommand{\cvlinkedin}{#1}}
+\newcommand{\cvcodewars}[1]{\renewcommand{\cvcodewars}{#1}}
 \newcommand{\cvgithub}[1]{\renewcommand{\cvgithub}{#1}}
 \newcommand{\cvmail}[1]{\renewcommand{\cvmail}{#1}}
 \newcommand{\cvnumberphone}[1]{\renewcommand{\cvnumberphone}{#1}}
@@ -235,7 +237,14 @@
               \hspace{3mm} \huge \textnormal{\faGithub}
               \end{array}
               $} & \href{https://www.github.com/\cvgithub}{\cvgithub} \\
-            }   
+            }
+            \ifthenelse{\equal{\cvcodewars}{}}{}{
+              {$
+                \begin{array}{l}
+                \hspace{3mm} \huge \textnormal{\textcolor{codewars}{\faCode}}
+                \end{array}
+                $} & \href{https://www.codewars.com/users/\cvcodewars}{\cvcodewars} \\
+              }    
             
     \end{tabular}
 

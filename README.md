@@ -1,10 +1,12 @@
 # LaTeX resume template
 
+This is the template of the resume that I would nomrally send for job openings. A quick update on certain aspects to more suit the role and then I will quickly be able to have an edited PDF ready to be sent
+
 Template designed by:
 
 1. [Harsh Gadgil](https://github.com/opensorceror)
 
-![CV Screenshot](screen.png)
+![CV Screenshot](screenshot.png)
 
 ## Installing pre-requisites (Windows)
 
